@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		FD81782B2A8ABCBF00651117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81782A2A8ABCBF00651117 /* AppDelegate.swift */; };
 		FD81782D2A8ABCBF00651117 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81782C2A8ABCBF00651117 /* SceneDelegate.swift */; };
-		FD81782F2A8ABCBF00651117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81782E2A8ABCBF00651117 /* ViewController.swift */; };
-		FD8178322A8ABCBF00651117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8178302A8ABCBF00651117 /* Main.storyboard */; };
+		FD81782F2A8ABCBF00651117 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81782E2A8ABCBF00651117 /* MainViewController.swift */; };
 		FD8178342A8ABCC100651117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8178332A8ABCC100651117 /* Assets.xcassets */; };
 		FD8178372A8ABCC100651117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8178352A8ABCC100651117 /* LaunchScreen.storyboard */; };
+		FD8178402A8D37BB00651117 /* ConstantCurrencyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81783F2A8D37BB00651117 /* ConstantCurrencyLabel.swift */; };
+		FD8178422A9374D100651117 /* BankTransferHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8178412A9374D100651117 /* BankTransferHeader.swift */; };
+		FD8178442A937BC600651117 /* InvestorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8178432A937BC600651117 /* InvestorCell.swift */; };
+		FD8178462A937BED00651117 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8178452A937BED00651117 /* CurrencyCell.swift */; };
+		FD8178482A937E8200651117 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8178472A937E8200651117 /* NetworkManager.swift */; };
+		FD81784B2A937ED500651117 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81784A2A937ED500651117 /* NetworkError.swift */; };
+		FD81784E2A937F3000651117 /* PaymentInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81784D2A937F3000651117 /* PaymentInformationModel.swift */; };
+		FD8178502A93ADCF00651117 /* InvestorIDFormatterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81784F2A93ADCF00651117 /* InvestorIDFormatterService.swift */; };
+		FD8178572A93B30D00651117 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8178562A93B30D00651117 /* AlertService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD8178272A8ABCBF00651117 /* BankTransferNikitaVolkodav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankTransferNikitaVolkodav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD81782A2A8ABCBF00651117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD81782C2A8ABCBF00651117 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD81782E2A8ABCBF00651117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD8178312A8ABCBF00651117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD81782E2A8ABCBF00651117 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FD8178332A8ABCC100651117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD8178362A8ABCC100651117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD8178382A8ABCC100651117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD81783F2A8D37BB00651117 /* ConstantCurrencyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantCurrencyLabel.swift; sourceTree = "<group>"; };
+		FD8178412A9374D100651117 /* BankTransferHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankTransferHeader.swift; sourceTree = "<group>"; };
+		FD8178432A937BC600651117 /* InvestorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestorCell.swift; sourceTree = "<group>"; };
+		FD8178452A937BED00651117 /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		FD8178472A937E8200651117 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FD81784A2A937ED500651117 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		FD81784D2A937F3000651117 /* PaymentInformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInformationModel.swift; sourceTree = "<group>"; };
+		FD81784F2A93ADCF00651117 /* InvestorIDFormatterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestorIDFormatterService.swift; sourceTree = "<group>"; };
+		FD8178562A93B30D00651117 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,87 @@
 		FD8178292A8ABCBF00651117 /* BankTransferNikitaVolkodav */ = {
 			isa = PBXGroup;
 			children = (
-				FD81782A2A8ABCBF00651117 /* AppDelegate.swift */,
-				FD81782C2A8ABCBF00651117 /* SceneDelegate.swift */,
-				FD81782E2A8ABCBF00651117 /* ViewController.swift */,
-				FD8178302A8ABCBF00651117 /* Main.storyboard */,
-				FD8178332A8ABCC100651117 /* Assets.xcassets */,
-				FD8178352A8ABCC100651117 /* LaunchScreen.storyboard */,
-				FD8178382A8ABCC100651117 /* Info.plist */,
+				FD8178552A93B29100651117 /* Header */,
+				FD8178542A93B27E00651117 /* Sevices */,
+				FD8178532A93B27000651117 /* CustomView */,
+				FD8178522A93B25F00651117 /* Cells */,
+				FD8178512A93B25300651117 /* ViewController */,
+				FD81784C2A937EEB00651117 /* Model */,
+				FD8178492A937EC000651117 /* Network */,
+				FD81783E2A8ABEB200651117 /* SupportingFiles */,
 			);
 			path = BankTransferNikitaVolkodav;
+			sourceTree = "<group>";
+		};
+		FD81783E2A8ABEB200651117 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FD81782C2A8ABCBF00651117 /* SceneDelegate.swift */,
+				FD81782A2A8ABCBF00651117 /* AppDelegate.swift */,
+				FD8178352A8ABCC100651117 /* LaunchScreen.storyboard */,
+				FD8178332A8ABCC100651117 /* Assets.xcassets */,
+				FD8178382A8ABCC100651117 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		FD8178492A937EC000651117 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FD8178472A937E8200651117 /* NetworkManager.swift */,
+				FD81784A2A937ED500651117 /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FD81784C2A937EEB00651117 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD81784D2A937F3000651117 /* PaymentInformationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD8178512A93B25300651117 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FD81782E2A8ABCBF00651117 /* MainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FD8178522A93B25F00651117 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FD8178452A937BED00651117 /* CurrencyCell.swift */,
+				FD8178432A937BC600651117 /* InvestorCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FD8178532A93B27000651117 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				FD81783F2A8D37BB00651117 /* ConstantCurrencyLabel.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		FD8178542A93B27E00651117 /* Sevices */ = {
+			isa = PBXGroup;
+			children = (
+				FD81784F2A93ADCF00651117 /* InvestorIDFormatterService.swift */,
+				FD8178562A93B30D00651117 /* AlertService.swift */,
+			);
+			path = Sevices;
+			sourceTree = "<group>";
+		};
+		FD8178552A93B29100651117 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				FD8178412A9374D100651117 /* BankTransferHeader.swift */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +215,6 @@
 			files = (
 				FD8178372A8ABCC100651117 /* LaunchScreen.storyboard in Resources */,
 				FD8178342A8ABCC100651117 /* Assets.xcassets in Resources */,
-				FD8178322A8ABCBF00651117 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +225,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD81782F2A8ABCBF00651117 /* ViewController.swift in Sources */,
+				FD81782F2A8ABCBF00651117 /* MainViewController.swift in Sources */,
 				FD81782B2A8ABCBF00651117 /* AppDelegate.swift in Sources */,
 				FD81782D2A8ABCBF00651117 /* SceneDelegate.swift in Sources */,
+				FD8178422A9374D100651117 /* BankTransferHeader.swift in Sources */,
+				FD8178502A93ADCF00651117 /* InvestorIDFormatterService.swift in Sources */,
+				FD8178482A937E8200651117 /* NetworkManager.swift in Sources */,
+				FD81784E2A937F3000651117 /* PaymentInformationModel.swift in Sources */,
+				FD8178462A937BED00651117 /* CurrencyCell.swift in Sources */,
+				FD81784B2A937ED500651117 /* NetworkError.swift in Sources */,
+				FD8178402A8D37BB00651117 /* ConstantCurrencyLabel.swift in Sources */,
+				FD8178572A93B30D00651117 /* AlertService.swift in Sources */,
+				FD8178442A937BC600651117 /* InvestorCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FD8178302A8ABCBF00651117 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD8178312A8ABCBF00651117 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FD8178352A8ABCC100651117 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,6 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSMainNibFile = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -270,6 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSMainNibFile = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -289,10 +379,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5XHF8YABJ7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BankTransferNikitaVolkodav/Info.plist;
+				INFOPLIST_FILE = BankTransferNikitaVolkodav/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +407,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5XHF8YABJ7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BankTransferNikitaVolkodav/Info.plist;
+				INFOPLIST_FILE = BankTransferNikitaVolkodav/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
