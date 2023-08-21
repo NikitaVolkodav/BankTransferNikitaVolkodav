@@ -1,6 +1,6 @@
 import UIKit
 
-class ConstantCurrencyLabek: UILabel {
+class ConstantCurrencyLabel: UILabel {
     private var labelText = ""
 
     required init(labelText: String) {
@@ -28,5 +28,3 @@ class ConstantCurrencyLabek: UILabel {
         numberOfLines = 0
     }
 }
-
-
